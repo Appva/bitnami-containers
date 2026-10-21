@@ -29,7 +29,7 @@ RUN --mount=type=secret,id=downloads_url,env=SECRET_DOWNLOADS_URL \
     mkdir -p /tmp/bitnami/pkg/cache/ ; cd /tmp/bitnami/pkg/cache/ || exit 1 ; \
     COMPONENTS=( \
       "render-template-1.0.9-165-linux-${OS_ARCH}-debian-12" \
-      "php-8.4.27-0-linux-${OS_ARCH}-debian-12" \
+      "php-8.5.12-0-linux-${OS_ARCH}-debian-12" \
       "nginx-1.31.0-1-linux-${OS_ARCH}-debian-12" \
       "mysql-client-12.2.2-0-linux-${OS_ARCH}-debian-12" \
       "postgresql-lib-18.4.0-0-linux-${OS_ARCH}-debian-12" \
